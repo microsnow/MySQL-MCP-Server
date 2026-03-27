@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "mysql": {
+      "command": "python",
+      "args": ["/absolute/path/to/mcp_mysql_server/server.py"],
+      "env": {
+        "DB_HOST": "localhost",
+        "DB_PORT": "3306",
+        "DB_USER": "root",
+        "DB_PASSWORD": "your_password",
+        "DB_NAME": "your_database"
+      }
+    }
+  }
+}
